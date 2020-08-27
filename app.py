@@ -1,25 +1,21 @@
 # Core pkgs
 import streamlit as st
-import imageio
-import io
 
 
 # EDA pkgs
-import pandas as pd 
+import pandas as pd
+from pandas import DataFrame
 import numpy as np
 import os
-import sys
 import base64
-from pandas import DataFrame
 import time
 
 
 
 # Data visulization pkgs
-import matplotlib.pyplot as plt 
 import matplotlib
+import matplotlib.pyplot as plt 
 matplotlib.use("Agg")
-import seaborn as sns
 st.set_option('deprecation.showfileUploaderEncoding', False)  # Apagar warning
 
 # ML Pkgs
